@@ -1,5 +1,8 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
+      npm i -g serve
     command: |
-      echo 'TODO: start app'
+      serve -l 8088
+ports:
+  - port: 8088
+    onOpen: open-browser

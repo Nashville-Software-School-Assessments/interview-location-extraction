@@ -3,10 +3,10 @@
 ## Setting Up
 
 1. Click the Gitpod icon above. If requested, authorize with Github.
-2. After the virtual machine is set up, create a new terminal by clicking the icon at the top left of the screen and then choose `Terminal > New Terminal` 
-3. One the terminal is open at the bottom, install serve with `npm i -g serve`
-4. Then run the web server with `serve -l 8080`.
-5. When prompted how to access your project, click "Open Browser"
+2. After the virtual machine is set up, a terminal will appear at the bottom of the editor.
+3. Paste the command `serve -l 8080` into the terminal to start the web server.
+4. A new browser window will open where the code is running.
+5. Remember that this isn't `create-react-app` so you will need to manually refresh the running code when you make changes in the editor.
 
 ## Assessment
 

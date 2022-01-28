@@ -1,4 +1,11 @@
 /*
+    Learning objectives assessed in this exercise:
+        1. Functions, arguments, parameters, return values
+        2. Array iteration
+        3. Accessing object properties
+        4. Using array methods
+        5. Algorithmic thinking
+        
   Write a function that returns an array of strings. The strings in
   the array should be extracted from the location property of 
   each object in the array provided.

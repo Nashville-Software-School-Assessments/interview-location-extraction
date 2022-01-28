@@ -3,8 +3,12 @@
   the array should be extracted from the location property of 
   each object in the array provided.
   
+  Example return value of function:
+    [ "Australia", "Egypt", "Norway", "Thailand" ]
+  
   Below are two arrays that can be used. Your function should be 
-  able to work for either array.
+  able to work for either array, but not both at the same time.
+  Either can be sent as input to the function.
 */
 
 

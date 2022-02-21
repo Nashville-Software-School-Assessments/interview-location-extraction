@@ -1,0 +1,27 @@
+{
+  "name": "assessment-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": false,
+    "collectCoverage": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nashville-Software-School-Assessments/template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nashville-Software-School-Assessments/template/issues"
+  },
+  "homepage": "https://github.com/Nashville-Software-School-Assessments/template#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "jest": "^27.4.5"
+  }
+}

@@ -5,19 +5,22 @@
         3. Accessing object properties
         4. Using array methods
         5. Algorithmic thinking
-        
-  Write a function that returns an array of strings. The strings in
-  the array should be extracted from the location property of 
-  each object in the array provided.
-  
-  Example return value of function:
-    [ "Australia", "Egypt", "Norway", "Thailand" ]
-  
-  Below are two arrays that can be used. Your function should be 
-  able to work for either array, but not both at the same time.
-  Either can be sent as input to the function.
+
+  INSTRUCTIONS:
+    1. Write a function assigned to a variable named `extractLocations`.
+    2. The function should accept any array of objects as input. Two
+        arrays are provided for your use.
+    3. The function should return an array of strings.
+    4. The strings in the array should be extracted from the location
+        property of each object in the input array.
+
+    Example return value of function:
+      [ "Australia", "Egypt", "Norway", "Thailand" ]
 */
 
+const extractLocations = (items) => {
+    return items.map(item => item.location)
+}
 
 
 const treasures = [
@@ -34,3 +37,50 @@ const books = [
     { id: 4, prize: "Ferdydurke", location: "Poland" }
 ]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// **********  Do not touch this code  **********
+module.exports = { extractLocations, treasures, books }
+// **********  Do not touch this code  **********

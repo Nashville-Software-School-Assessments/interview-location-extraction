@@ -15,6 +15,8 @@
 
 The `main.js` module is linked to the `index.html` file, so you can use the debugger in the browser to step through your code like you have been doing during the course.
 
+After each `git push` you perform, look in the **Actions** tab for your repository to see if all of the automated tests pass.
+
 ## Assessment
 
 Open `main.js` and read the instructions contained therein. Remember to use algorithmic thinking and planning, use all of your references, and use your Dev Tools. How you were able to complete the exercise is just as important as completing it.

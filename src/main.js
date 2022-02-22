@@ -14,11 +14,25 @@
     4. The strings in the array should be extracted from the location
         property of each object in the input array.
 
-    Example return value of function:
-      [ "Australia", "Egypt", "Norway", "Thailand" ]
+            Example return value of extractLocations function:
+            [ "Australia", "Egypt", "Norway", "Thailand" ]
+
+    5. Write a function assigned to a variable named `displayLocations`
+    6. The displayLocations function should accept an array of strings
+        as input.
+    7. The displayLocations function should return a single string. Each
+        string in the original array should be wrapped in a "<div>" element.
+
+            Example return value of displayLocations function:
+            "<div>Australia</div><div>Egypt</div><div>Norway</div><div>Thailand</div>"
+
+    TESTING YOUR CODE:
+    1. See the `testMyAlgorithmicThinking` function below.
+    2. Replace the underscores on both lines of code in the function
+        body with the proper instructions to take the results of the
+        extractLocations function and provide it as input to the
+        displayLocations function.
 */
-
-
 
 const treasures = [
     { id: 1, prize: "Bronze coin", location: "Australia" },
@@ -33,6 +47,59 @@ const books = [
     { id: 3, prize: "Travelling with Djinns", location: "Sudan" },
     { id: 4, prize: "Ferdydurke", location: "Poland" }
 ]
+
+
+/*
+    WRITE YOUR TWO FUNCTIONS HERE
+*/
+
+
+
+
+
+
+// NOTE: An array of objects (chosen from above) will be the input to this function
+const testMyAlgorithmicThinking = (data) => {
+
+    // TASK: Replace the underlines below with the correct code
+    const extractionResults = ________
+    const displayResults = ________
+
+
+
+
+
+
+
+
+
+
+    // **********  Do not touch this code  **********
+    return {extractionResults, displayResults}
+    // **********  Do not touch this code  **********
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -79,5 +146,5 @@ const books = [
 
 
 // **********  Do not touch this code  **********
-module.exports = { extractLocations, treasures, books }
+module.exports = { extractLocations, treasures, books, displayLocations, testMyAlgorithmicThinking }
 // **********  Do not touch this code  **********

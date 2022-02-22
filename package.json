@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "jest": {
-    "verbose": false,
+    "verbose": true,
     "collectCoverage": false
   },
   "repository": {

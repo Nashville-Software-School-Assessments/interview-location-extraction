@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/Nashville-Software-School-Assessments/template#readme",
   "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "babel-jest": "^25.3.0",
     "@actions/core": "^1.6.0",
     "jest": "^27.4.5"
   }

@@ -1,10 +1,12 @@
+import studentCode from "../../scripts/main.js"
+
 const {
     extractLocations,
     treasures,
     books,
     displayLocations,
     testMyAlgorithmicThinking
-} = require("../../scripts/main.js")
+} = studentCode
 
 
 describe("Location extraction", () => {

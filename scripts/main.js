@@ -58,8 +58,12 @@ const books = [
 
 
 
-// NOTE: An array of objects (chosen from above) will be the input to this function
+/*
+    NOTE: An array of objects (chosen from above) will be the input
+    to this function. Do not modify the function definition.
+*/
 const testMyAlgorithmicThinking = (data) => {
+
 
     // TASK: Replace the underlines below with the correct code
     const extractionResults = ________
@@ -82,8 +86,11 @@ const testMyAlgorithmicThinking = (data) => {
 
 
 
-
-
+// **********  Do not touch this code  **********
+const {extractionResults, displayResults} = testMyAlgorithmicThinking(books)
+console.log(extractionResults)
+console.log(displayResults)
+// **********  Do not touch this code  **********
 
 
 

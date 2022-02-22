@@ -4,7 +4,7 @@ const {
     books,
     displayLocations,
     testMyAlgorithmicThinking
-} = require("../../src/index.js")
+} = require("../../scripts/main.js")
 
 
 describe("Location extraction", () => {

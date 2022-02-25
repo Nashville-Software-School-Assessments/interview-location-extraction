@@ -153,5 +153,5 @@ console.log(displayResults)
 
 
 // **********  Do not touch this code  **********
-module.exports = { extractLocations, treasures, books, displayLocations, testMyAlgorithmicThinking }
+export default { extractLocations, treasures, books, displayLocations, testMyAlgorithmicThinking }
 // **********  Do not touch this code  **********
